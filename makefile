@@ -8,6 +8,3 @@ $(VENV_NAME)/bin/activate: requirements.txt
 	$(VENV_NAME)/bin/python3 setup.py develop
 	$(VENV_NAME)/bin/ipython kernel install --user --name=$(VENV_NAME)
 	touch $(VENV_NAME)/bin/activate
-
-tensorboard:
-	$(VENV_NAME)/bin/tensorboard --logdir model/v1
