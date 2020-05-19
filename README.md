@@ -2,7 +2,7 @@
 
 ## Set-up environment
 
-Run the following command:
+Run the following command:<br/>
 ```make venv```
 
 It will create a python environment and install all the packages specified in requirements.txt.<br/>
