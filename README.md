@@ -27,7 +27,10 @@ You can provide the following optional arguments:<br/>
  ```--checkpoint``` Filepath to checkpoint to use as starting point for training.<br/>
  ```--reset``` Clear model dir and restart training from scratch.<br/>
 
-Check training and evaluation accuracy with Tensorboard:<br/>
+Example:<br/>
+```python -m src.train --model_dir model/v1 --batch_size 32 --epochs 10```
+
+You can check training and evaluation accuracy with Tensorboard:<br/>
 ```myvenv/bin/tensorboard --logdir /path/to/dir```<br/>
 
 ## Train model on Colab
