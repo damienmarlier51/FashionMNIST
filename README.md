@@ -9,7 +9,7 @@ It will create a python environment and install all the packages specified in re
 It will also install the current package.<br/>
 
 Make sure to activate the virtual environment with the following command:<br/>
-```source activate ezmile_venv/bin/activate```
+```source activate myvenv/bin/activate```
 
 ## Fashion MNIST
 
