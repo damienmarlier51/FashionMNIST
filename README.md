@@ -6,7 +6,7 @@ Run the following command:<br/>
 ```make venv```
 
 It will create a python environment and install all the packages specified in requirements.txt.<br/>
-It will also install the current package.<br/>
+It will also install the current repo as package.<br/>
 
 Make sure to activate the virtual environment with the following command:<br/>
 ```source activate myvenv/bin/activate```
