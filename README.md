@@ -47,4 +47,4 @@ You can then run predictions using the following command:<br/>
 ```python -m src.predict --checkpoint path/to/checkpoint --image_path /path/to/image```
 
 Example:<br/>
-```python -m src.predict --checkpoint model/v1/model.ckpt-7332 --image_path samples/1.png```
+```python -m src.predict --checkpoint model/v1/model.ckpt-18750 --image_path samples/1.png```
