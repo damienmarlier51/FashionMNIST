@@ -22,9 +22,10 @@ def train_(model_dir=None,
         raise Exception("Checkpoint doesn't exist")
 
     if model_dir is not None:
-        if reset is True:
-            shutil.rmtree(model_dir)
-        if not os.path.exists(model_dir):
+        if os.path.exists(model_dir) is True:
+            if reset is True:
+                shutil.rmtree(model_dir)
+        else:
             os.makedirs(model_dir)
 
     fashion_mnist = keras.datasets.fashion_mnist
