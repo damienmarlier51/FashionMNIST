@@ -3,7 +3,8 @@
 *.DS_Store
 myvenv
 __pycache__
-model/
 .ipynb_checkpoints
-samples/
-!**/.gitkeep
+model/*
+!model/.gitkeep
+samples/*
+!samples/.gitkeep
